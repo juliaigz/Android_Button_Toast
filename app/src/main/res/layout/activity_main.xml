@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="60dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="200dp"
+                android:layout_height="51dp"
+                android:background="@drawable/img"
+                android:contentDescription="turn off"
+                android:scaleType="fitXY"
+                android:visibility="visible"
+                app:srcCompat="@drawable/img"
+                tools:srcCompat="@drawable/img"
+                tools:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="199dp"
+                android:layout_height="61dp"
+                android:contentDescription="picture saved"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/img_1"
+                tools:srcCompat="@drawable/img_1" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="198dp"
+                android:layout_height="64dp"
+                android:contentDescription="level 4 completed"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/img_2"
+                tools:srcCompat="@drawable/img_2" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="196dp"
+                android:layout_height="67dp"
+                android:contentDescription="updating profile"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/img_3"
+                tools:srcCompat="@drawable/img_3" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="196dp"
+                android:layout_height="66dp"
+                android:contentDescription="unlocked level"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/img_4"
+                tools:srcCompat="@drawable/img_4" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="198dp"
+                android:layout_height="57dp"
+                android:contentDescription="music paused"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/img_5"
+                tools:srcCompat="@drawable/img_5" />
+
+            <ImageButton
+                android:id="@+id/imageButtonAndroid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="android dibujo"
+                app:srcCompat="@drawable/img_6" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
